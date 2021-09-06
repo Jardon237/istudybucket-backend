@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.persistence.*;
 
-
 /**
  * User
  */
@@ -22,10 +21,14 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
-
     private String username;
-
     private String firstName;
-
     private String lastName;
+    private string email;
+    private string phone_number;
+    private  string  address;
+    private short gender;
+    private  sring password;
+    private Date date_of_birth;
+
 }
