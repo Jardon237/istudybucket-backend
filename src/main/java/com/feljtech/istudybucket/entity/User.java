@@ -24,11 +24,9 @@ public class User {
     private String username;
     private String firstName;
     private String lastName;
-    private string email;
-    private string phone_number;
-    private  string  address;
+    private String email;
+    private String phone_number;
+    private String  address;
     private short gender;
-    private  sring password;
+    private String password;
     private Date date_of_birth;
-
-}
